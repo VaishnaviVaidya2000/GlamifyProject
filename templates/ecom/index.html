@@ -1,0 +1,158 @@
+{% extends 'ecom/homebase.html' %}
+{% load static %}
+{% block content %}
+
+<style media="screen">
+  .card {
+    box-shadow: 10px 10px 5px lightblue;
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border:4px solid black;
+    border-radius:14px;
+  }
+  
+  .price {
+    color: #7C00FE;
+    font-size: 22px;
+    font-weight:bolder;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: white;
+    background-color: #102C57;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 33.33%;
+padding: 10px;
+height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+}
+</style>
+<!--  Carousel start -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="border: 8px solid black;" >
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../static/images/carosel2.jpg" class="d-block w-100" alt="..." height="500">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../static/images/carosel5.jpg" class="d-block w-100" alt="..." height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="../static/images/carosel9.jpg" class="d-block w-100" alt="..." height="500">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+  <!--  Carousel end -->
+
+{%if products%}
+<h3 style="text-align:center; color:#3E454C;">{{word}}</h3>
+<br>
+
+<!-- products data starttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+  <div class="row">
+
+      {% for p in products %}
+      <!-- card1 -->
+      <div class="column"> 
+        <div class="container page-wrapper" style="width: 450px;">
+          <div class="page-inner">
+            <div class="row">
+              <div class="el-wrapper">
+                <div class="box-up">
+                  <div class="card">
+                    <img src="{% static p.product_image.url %}" alt="Denim Jeans" style="width:100%;height:200px">
+                    <h2 style="font-weight:bolder;  color: #E4003A;">{{p.name}}</h2>
+                    <p class="price">{{p.description}}</p>
+                    {% if user.is_authenticated %}
+                    <a class="cart" href="{% url 'add-to-cart' p.id %}">
+                      <span class="price">${{ p.price }}</span>
+                      <span class="add-to-cart">
+                        <span class="txt"><button><i class="fa fa-shopping-cart"></i> Add To Cart</button></span>
+                      </span>
+                    </a>
+                    {% else %}
+                    <a class="cart" href="{% url 'customerlogin' %}">
+                      <span class="price">${{ p.price }}</span>
+                      <span class="add-to-cart">
+                        <span class="txt"><button><i class="fa fa-shopping-cart"></i> Add To Cart</button></span>
+                      </span>
+                     </a>
+                     {% endif %}
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+<!-- card1 end -->
+ 
+{% if forloop.counter|divisibleby:"3" %}
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="row">
+
+          <br><br><br><br><br>
+{% endif %}
+  {% endfor %}
+</div>
+<!-- products data enddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+{%else%}
+<h3 style="text-align:center; color:#3E454C;">No Search Found</h3>
+{%endif%}
+
+<script>
+    {%if messages %}
+    {%for message in messages%}
+    alert('{{message}}');
+    {%endfor%}
+    {%endif%}
+</script>
+<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+{% endblock content %}

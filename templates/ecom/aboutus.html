@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Glamify About Us</title>
+  <style media="screen">
+    .footer{
+      position: fixed;
+    }
+  </style>
+</head>
+
+<body style="background-image: url('../static/images/aboutus3.webp'); background-size:cover;">
+  {%if request.user.is_authenticated%}
+    {% include "ecom/customer_navbar.html" %}
+  {%else%}
+    {% include "ecom/navbar.html" %}
+  {%endif%}
+  <br><br><br>
+  <h2 style="text-align:center; font-weight:bolder; color:#E4003A">Welcome to Glamify, where beauty meets care.</h2>
+<p style="text-align:center; font-size:20px">Welcome to Glamify, where beauty meets care.<br>
+  We believe that true beauty radiates from healthy, well-nourished skin, and we are dedicated to helping you achieve just that. 
+  Our journey began with a simple mission: to provide high-quality, effective, and cruelty-free beauty products that cater to every skin type and need.Whether you’re looking for a hydrating moisturizer, a rejuvenating serum, or a soothing cleanser, we have something for everyone.
+  At Glamify, beauty is more than skin deep—it's a journey of self-care, self-love, and self-expression.
+  Quality is at the heart of everything we do.
+  We are more than just a skincare brand—we are a community of like-minded individuals who share a passion for beauty, wellness, and sustainability.<br></p>
+<h4 style="text-align:center; font-weight:bolder; color:#C40C0C;">Thank you for choosing Glamify. We are excited to be a part of your beauty journey and are here to support you every step of the way.
+
+  Discover the beauty of healthy skin with Glamify because you deserve the best.</h4>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  {% include "ecom/footer.html" %}
+</body>
+
+</html>
