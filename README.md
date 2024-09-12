@@ -48,5 +48,8 @@ In today's digital age, users are increasingly turning to online platforms for p
 Implement machine learning algorithms that analyze users’ browsing and purchase history to offer personalized beauty and skincare recommendations based on their skin type, concerns, and preferences.Allow users to create personalized beauty profiles that track their preferences, skin concerns, and product usage to recommend relevant products.Notify users when products they’ve purchased are running low and offer a seamless reorder option.Offer early access to sales, limited edition products, or free beauty consultations for loyal customers.Enable users to upload before/after photos with their reviews, offering real-world insights into product effectiveness.Introduce a feature where users can share their product purchases or skincare routines on social media platforms, allowing followers to buy products directly through integrated links.Offer real-time customer support for users to resolve issues related to orders, payments, or products.Allow users to search for products based on specific ingredients, allergens, or certifications (e.g., cruelty-free, organic).
 
 <h3>Screenshots</h3>
+<h4>Mysql Flexible Server</h4>
 <img src="static/images/Mysql image.png" />
+<h4>Virtual Machine</h4>
+<img src="static/images/VM_image.png"/>
 
