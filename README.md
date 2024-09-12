@@ -39,6 +39,9 @@ In today's digital age, users are increasingly turning to online platforms for p
 
 <li>Add Products: Admins can easily add or update product listings, including descriptions, images, prices.</li>
 
-<li>Change Order Status: Admins have the ability to update the status of orders (e.g., processing, shipped, delivered) to keep customers informed.</li>
+<li>Change Order Status: Admin have the ability to update the status of orders (e.g., processing, shipped, delivered) to keep customers informed.</li>
 
 <li>This project will cater to the modern online shopping experience, ensuring a seamless and convenient way for customers to access beauty and skincare products anytime.</li>
+
+<h3>Future Enhancements</h3>
+Implement machine learning algorithms that analyze users’ browsing and purchase history to offer personalized beauty and skincare recommendations based on their skin type, concerns, and preferences.Allow users to create personalized beauty profiles that track their preferences, skin concerns, and product usage to recommend relevant products.Notify users when products they’ve purchased are running low and offer a seamless reorder option.Offer early access to sales, limited edition products, or free beauty consultations for loyal customers.Enable users to upload before/after photos with their reviews, offering real-world insights into product effectiveness.Introduce a feature where users can share their product purchases or skincare routines on social media platforms, allowing followers to buy products directly through integrated links.Offer real-time customer support for users to resolve issues related to orders, payments, or products.
