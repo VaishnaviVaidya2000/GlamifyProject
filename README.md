@@ -23,7 +23,7 @@ In today's digital age, users are increasingly turning to online platforms for p
 <h3>Project Description</h3>
 "The Glamify," seems to focus on creating a comprehensive and user-friendly platform for purchasing beauty and skincare products. The functionality highlights include:
 
-Key Features:
+<li>Key Features:</li>
 User Registration: Allowing users to sign up, create profiles, and manage their personal information.
 
 Ordering Multiple Products: Users can browse, add multiple items to their cart, and place orders for beauty and skincare products.
