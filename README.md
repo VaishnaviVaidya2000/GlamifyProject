@@ -8,8 +8,10 @@ Glamify helps to establish a strong online presence for your beauty and skincare
 <h5>Github Repository URL:https://github.com/VaishnaviVaidya2000/GlamifyProject</h5>
 <h5>Industry:Lifestyle and Technology</h5>
 <h2>Azure Services Used</h2>
-1)Azure Virtual Machine
+1)Azure Virtual Machine:
+<br>
 It is used for Hosting Website.
 <br>
-2)Azure Mysql Flexible Server
+2)Azure Mysql Flexible Server:
+<br>
 It is used for creating MySQL database to storing and managing data.
