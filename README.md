@@ -10,5 +10,6 @@ Glamify helps to establish a strong online presence for your beauty and skincare
 <h2>Azure Services Used</h2>
 1)Azure Virtual Machine
 It is used for Hosting Website.
+<br>
 2)Azure Mysql Flexible Server
 It is used for creating MySQL database to storing and managing data.
