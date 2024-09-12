@@ -1,1 +1,1 @@
-Glamify Project
+**Glamify Project**
