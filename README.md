@@ -3,4 +3,7 @@ The Glamify aims to offer a convenient and user-friendly platform for customers 
 Glamify helps to establish a strong online presence for your beauty and skincare brand, enhancing brand recognition and customer loyalty.
 <h1>Project Title:Glamify</h1>
 <h1>Project Details</h1>
-
+<h6>Project Demo URL:</h6>
+<h6>Demo Video URL:</h6>
+<h6>Github Repository URL:</h6>
+<h6>Industry:Lifestyle and Technology</h6>
