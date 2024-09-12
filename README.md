@@ -1,1 +1,2 @@
-<h1>Glamify Project</h1>
+<h1>Glamify</h1>
+
