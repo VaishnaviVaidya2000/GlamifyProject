@@ -7,15 +7,16 @@ Glamify helps to establish a strong online presence for your beauty and skincare
 <h5>Demo Video URL:https://drive.google.com/file/d/1BNQvSLiPvcXQeIPQnw-hAy4OiobvCMIz/view?usp=sharing</h5>
 <h5>Github Repository URL:https://github.com/VaishnaviVaidya2000/GlamifyProject</h5>
 <h5>Industry:Lifestyle and Technology</h5>
+
 <h2>Azure Services Used</h2>
 1)Azure Virtual Machine:
 <br>
-It is used for Hosting Website.
+It is used for Hosting Website.Deployed the project on Linux (Ubuntu) Virtual Machine due to cost-efficiency and developer support.
 <br>
 <br>
 2)Azure Mysql Flexible Server:
 <br>
-It is used for creating MySQL database to storing and managing data.
+It is used for creating MySQL database to storing and managing data.The project is  using a relational Mysql database to manage customer data, orders, and product catalogs, Azure’s managed MySQL service is ideal. It offers built-in high availability, automated backups, and scaling without needing to manually manage database instances.
 
 <h3>Problem Statement</h3>
 In today's digital age, users are increasingly turning to online platforms for purchasing beauty and skincare products. However, many existing e-commerce platforms fail to cater specifically to the needs and preferences of beauty and skincare consumers.Cumbersome checkout process, particularly for users purchasing multiple products, leads to higher cart abandonment rates.The beauty and skincare industry is highly competitive, with consumers often overwhelmed by the vast range of products available. Shopping for beauty and skincare products online can present several unique challenges that hinder the customer experience, leading to poor satisfaction and low conversion rates. 
@@ -44,4 +45,6 @@ In today's digital age, users are increasingly turning to online platforms for p
 <li>This project will cater to the modern online shopping experience, ensuring a seamless and convenient way for customers to access beauty and skincare products anytime.</li>
 
 <h3>Future Enhancements</h3>
-Implement machine learning algorithms that analyze users’ browsing and purchase history to offer personalized beauty and skincare recommendations based on their skin type, concerns, and preferences.Allow users to create personalized beauty profiles that track their preferences, skin concerns, and product usage to recommend relevant products.Notify users when products they’ve purchased are running low and offer a seamless reorder option.Offer early access to sales, limited edition products, or free beauty consultations for loyal customers.Enable users to upload before/after photos with their reviews, offering real-world insights into product effectiveness.Introduce a feature where users can share their product purchases or skincare routines on social media platforms, allowing followers to buy products directly through integrated links.Offer real-time customer support for users to resolve issues related to orders, payments, or products.
+Implement machine learning algorithms that analyze users’ browsing and purchase history to offer personalized beauty and skincare recommendations based on their skin type, concerns, and preferences.Allow users to create personalized beauty profiles that track their preferences, skin concerns, and product usage to recommend relevant products.Notify users when products they’ve purchased are running low and offer a seamless reorder option.Offer early access to sales, limited edition products, or free beauty consultations for loyal customers.Enable users to upload before/after photos with their reviews, offering real-world insights into product effectiveness.Introduce a feature where users can share their product purchases or skincare routines on social media platforms, allowing followers to buy products directly through integrated links.Offer real-time customer support for users to resolve issues related to orders, payments, or products.Allow users to search for products based on specific ingredients, allergens, or certifications (e.g., cruelty-free, organic).
+
+<h3>Screenshots</h3>
