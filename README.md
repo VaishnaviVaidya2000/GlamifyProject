@@ -3,7 +3,12 @@ The Glamify aims to offer a convenient and user-friendly platform for customers 
 Glamify helps to establish a strong online presence for your beauty and skincare brand, enhancing brand recognition and customer loyalty.
 <h1>Project Title:Glamify</h1>
 <h1>Project Details</h1>
-<h4>Project Demo URL:</h4>
-<h4>Demo Video URL:https://drive.google.com/file/d/1BNQvSLiPvcXQeIPQnw-hAy4OiobvCMIz/view?usp=sharing</h4>
-<h4>Github Repository URL:https://github.com/VaishnaviVaidya2000/GlamifyProject</h4>
-<h4>Industry:Lifestyle and Technology</h4>
+<h5>Project Demo URL:</h5>
+<h5>Demo Video URL:https://drive.google.com/file/d/1BNQvSLiPvcXQeIPQnw-hAy4OiobvCMIz/view?usp=sharing</h5>
+<h5>Github Repository URL:https://github.com/VaishnaviVaidya2000/GlamifyProject</h5>
+<h5>Industry:Lifestyle and Technology</h5>
+<h3>Azure Services Used</h3>
+<h2>Azure Virtual Machine</h2>
+It is used for Hosting Website.
+<h2>Azure Mysql Flexible Server</h2>
+It is used for creating MySQL database to storing and managing data.
