@@ -23,22 +23,22 @@ In today's digital age, users are increasingly turning to online platforms for p
 <h3>Project Description</h3>
 "The Glamify," seems to focus on creating a comprehensive and user-friendly platform for purchasing beauty and skincare products. The functionality highlights include:
 
-<li>Key Features:</li>
-User Registration: Allowing users to sign up, create profiles, and manage their personal information.
+<h4>Key Features:</h4>
+<li>User Registration: Allowing users to sign up, create profiles, and manage their personal information.</li>
 
-Ordering Multiple Products: Users can browse, add multiple items to their cart, and place orders for beauty and skincare products.
+<li>Ordering Multiple Products: Users can browse, add multiple items to their cart, and place orders for beauty and skincare products.</li>
 
-Product Tracking: Users can track the status of their orders in real-time, from order confirmation to delivery.
+<li>Product Tracking: Users can track the status of their orders in real-time, from order confirmation to delivery.</li>
 
-Online Payment:Allow users to pay online securely.
+<li>Online Payment:Allow users to pay online securely.</li>
 
-Invoice Downloading: Users can download invoices for their purchases for records or business purposes.
+<li>Invoice Downloading: Users can download invoices for their purchases for records or business purposes.</li>
 
-Admin Features:
-View Customers: Admin can manage the customer base, viewing all registered users.
+<h5>Admin Features:</h5>
+<li>View Customers: Admin can manage the customer base, viewing all registered users.</li>
 
-Add Products: Admins can easily add or update product listings, including descriptions, images, prices, and inventory levels.
+<li>Add Products: Admins can easily add or update product listings, including descriptions, images, prices.</li>
 
-Change Order Status: Admins have the ability to update the status of orders (e.g., processing, shipped, delivered) to keep customers informed.
+<li>Change Order Status: Admins have the ability to update the status of orders (e.g., processing, shipped, delivered) to keep customers informed.</li>
 
-This project will cater to the modern online shopping experience, ensuring a seamless and convenient way for customers to access beauty and skincare products anytime.
+<li>This project will cater to the modern online shopping experience, ensuring a seamless and convenient way for customers to access beauty and skincare products anytime.</li>
