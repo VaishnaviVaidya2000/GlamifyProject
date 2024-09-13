@@ -52,4 +52,6 @@ Implement machine learning algorithms that analyze users’ browsing and purchas
 <img src="static/images/Mysql image.png" />
 <h4>Virtual Machine</h4>
 <img src="static/images/VM_image.png"/>
+<h4>Virtual Machine</h4>
+<img src="static/images/VM_image.png"/>
 
