@@ -56,5 +56,19 @@ Implement machine learning algorithms that analyze users’ browsing and purchas
 <img src="static/images/Index_page.png"/>
 <h4>Index Page</h4>
 <img src="static/images/Index_page.png"/>
+<h4>About Us Page</h4>
+<img src="static/images/aboutus_page.png"/>
+<h4>Customer Signup</h4>
+<img src="static/images/customer_signup.png"/>
+<h4>Customer Signin</h4>
+<img src="static/images/customer_login.png"/>
+<h4>Customer Homepage</h4>
+<img src="static/images/cust_homepage.png"/>
+<h4>Customer Profile</h4>
+<img src="static/images/cust_profile.png"/>
+<h4>CustomerEdit Profile</h4>
+<img src="static/images/edit_profile.png"/>
+
+
 
 
