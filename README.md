@@ -54,8 +54,6 @@ Implement machine learning algorithms that analyze users’ browsing and purchas
 <img src="static/images/VM_image.png"/>
 <h4>Index Page</h4>
 <img src="static/images/Index_page.png"/>
-<h4>Index Page</h4>
-<img src="static/images/Index_page.png"/>
 <h4>About Us Page</h4>
 <img src="static/images/aboutus_page.png"/>
 <h4>Customer Signup</h4>
@@ -66,9 +64,37 @@ Implement machine learning algorithms that analyze users’ browsing and purchas
 <img src="static/images/cust_homepage.png"/>
 <h4>Customer Profile</h4>
 <img src="static/images/cust_profile.png"/>
-<h4>CustomerEdit Profile</h4>
+<h4>Customer Edit Profile</h4>
 <img src="static/images/edit_profile.png"/>
-
-
-
-
+<h4>Products Page</h4>
+<img src="static/images/products_page.png"/>
+<h4>Cart Page</h4>
+<img src="static/images/cart_page.png"/>
+<h4>Shipment Address Page</h4>
+<img src="static/images/ship_address.png"/>
+<h4>Payment Page</h4>
+<img src="static/images/payment_page.png"/>
+<h4>Payment Success Page</h4>
+<img src="static/images/pay_success.png"/>
+<h4>Track Order Page</h4>
+<img src="static/images/order_track_page.png"/>
+<h4>Invoice Page</h4>
+<img src="static/images/invoice.png"/>
+<h4>Logout Page</h4>
+<img src="static/images/logout.png"/>
+<h4>Admin Login Page</h4>
+<img src="static/images/adminlogin.png"/>
+<h4>Admin Dashboard Page</h4>
+<img src="static/images/admindash.png"/>
+<h4>View Customer Page</h4>
+<img src="static/images/view_customer.png"/>
+<h4>Admin Customer Update Page</h4>
+<img src="static/images/admin_up_cust.png"/>
+<h4>View Order Page</h4>
+<img src="static/images/view_order.png"/>
+<h4>Update Order Status Page</h4>
+<img src="static/images/update_orstatus.png"/>
+<h4>Manage Product</h4>
+<img src="static/images/manage_product.png"/>
+<h4>Update Product</h4>
+<img src="static/images/update_product.png"/>
